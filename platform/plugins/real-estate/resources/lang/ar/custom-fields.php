@@ -23,6 +23,12 @@ return [
             'dropdown' => 'قائمة منسدلة',
         ],
     ],
+    'housetype' => [
+        'fields' => [
+            'name' => 'laura',
+            'lastName' => 'قائمة منسدلة',
+        ],
+    ],
     'ask_for_select' => 'يرجى اختيار حقل مخصص',
     'add_a_new_custom_field' => 'إضافة حقل مخصص جديد',
 ];

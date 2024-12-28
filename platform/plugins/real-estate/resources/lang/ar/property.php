@@ -14,6 +14,7 @@ return [
         'location' => 'موقع العقار',
         'number_bedroom' => 'عدد الغرف',
         'number_bathroom' => 'عدد الحمامات',
+        'house_type' =>  'نوع المنزل',
         'number_floor' => 'عدد الطوابق',
         'square' => 'المساحة :unit',
         'price' => 'السعر',

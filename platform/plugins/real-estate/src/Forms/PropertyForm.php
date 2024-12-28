@@ -302,15 +302,34 @@ class PropertyForm extends FormAbstract
                 'choices' => $currencies,
             ])
             ->add('house_type', 'customSelect', [
-                'label' => trans('House Type'),
+                'label' => trans('plugins/real-estate::property.form.house_type'),
                 'wrapper' => [
-                    'class' => 'form-group mb-3 col-md-12 bg-info',
+                    'class' => 'mb-3 col-md-12',
                 ],
-                'attr' => [
-                    'class' => 'select-full',
-                ],
-                'choices' => $currencies,
+                    'name' => 'house_type',
+                    'choices' => CustomFieldEnum::labels(),
+                    // 'choices' => CustomFieldEnum::labels(),
+
+                // 'choices' => [0 => trans('plugins/real-estate::property.select_project')] + $projects,
+                // 'house_type' => $currencies,
             ])
+            // ->add('house_type', 'customSelect', [
+            //     'label' => trans('plugins/real-estate::property.form.house_type'),
+            //     'wrapper' => [
+            //         'class' => 'form-group mb-3 col-md-12 bg-info',
+            //     ],
+            //     'attr' => [
+            //         'class' => 'select-full',
+            //         'name' => 'house_type',
+                    
+            //     ],
+            //     'options' => [
+            //         'percentage' => 'percentage',
+            //         'fixed' =>'fixed',
+            //     ],
+            //     // 'choices' => [0 => trans('plugins/real-estate::property.select_project')] + $projects,
+            //     // 'house_type' => $currencies,
+            // ])
             ->add('period', 'customSelect', [
                 'label' => trans('plugins/real-estate::property.form.period'),
                 'required' => true,

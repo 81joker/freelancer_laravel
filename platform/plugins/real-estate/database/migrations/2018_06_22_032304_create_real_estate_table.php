@@ -61,7 +61,7 @@ return new class () extends Migration {
             $table->date('expire_date')->nullable();
             $table->boolean('auto_renew')->default(false);
             $table->boolean('never_expired')->default(false);
-            $table->string('house_type', 60)->nullable();
+            // $table->string('house_type', 60)->nullable();
             $table->timestamps();
         });
 
