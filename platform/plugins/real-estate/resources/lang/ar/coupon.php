@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'name' => 'القسائم',
+    'create' => 'قسيمة جديدة',
+    'edit' => 'تعديل القسيمة ":name"',
+    'intro' => [
+        'button_text' => 'إنشاء قسيمة',
+        'title' => 'إدارة رموز القسائم',
+        'description' => 'إنشاء وإدارة رموز القسائم لعملائك.',
+    ],
+    'types' => [
+        'percentage' => 'نسبة مئوية',
+        'fixed' => 'ثابت',
+    ],
+    'type' => 'النوع',
+    'created_message' => 'تم إنشاء القسيمة بنجاح.',
+    'expires_date' => 'تاريخ الانتهاء',
+    'expires_time' => 'وقت الانتهاء',
+    'never_expired' => 'لا تنتهي صلاحيتها؟',
+    'save_button' => 'حفظ',
+    'coupon_code' => 'رمز القسيمة',
+    'coupon_code_placeholder' => 'أدخل رمز القسيمة',
+    'generate_code_button' => 'توليد رمز',
+    'value' => 'القيمة',
+    'value_placeholder' => 'أدخل قيمة القسيمة',
+    'value_off' => ':value خصم',
+    'total_used' => 'عدد مرات الاستخدام',
+    'expired' => 'منتهية الصلاحية',
+    'active' => 'نشط',
+    'unlimited' => 'قسيمة غير محدودة؟',
+    'quantity' => 'الكمية',
+    'quantity_placeholder' => 'أدخل عدد القسائم',
+    'discount_amount' => 'مقدار الخصم',
+    'total' => 'الإجمالي',
+    'toggle_coupon_form_text' => 'هل لديك رمز قسيمة؟',
+    'apply_coupon_code' => 'تطبيق',
+];
