@@ -58,6 +58,7 @@ class Property extends BaseModel
         'private_notes',
         'floor_plans',
         'reject_reason',
+        'house_type',
     ];
 
     protected $casts = [
